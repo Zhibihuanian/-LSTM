@@ -15,7 +15,6 @@ LSTM_pre        :   模型预测
 
 
 
-
 安装python的依赖库：
 python3.6
 tensorflow==1.3.0
@@ -23,5 +22,10 @@ numpy==1.19.3
 pandas==1.1.4
 requests==2.24.0
 beautifulsoup4=4.7.1
+
+
+如果实现财富自由，请酌情打赏一下作者，作者很穷的。
+
+ ![ef7421254938d28b324734b6d130ebc](.\ef7421254938d28b324734b6d130ebc.jpg) ![b541dae4f200847f33c04c25fdc3916](.\b541dae4f200847f33c04c25fdc3916.jpg)
 
 
