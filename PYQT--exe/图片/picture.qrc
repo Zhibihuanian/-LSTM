@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="picture">
+    <file>ML.jpeg</file>
+  </qresource>
+</RCC>
