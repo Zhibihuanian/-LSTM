@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>智能预测系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/background/ML.jpeg);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>1</y>
+      <width>791</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/picture/ML.jpeg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>114</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="title">
+     <string>数据</string>
+    </property>
+    <addaction name="act_1_1"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>模型</string>
+    </property>
+    <addaction name="act_2_1"/>
+    <addaction name="act_2_2"/>
+    <addaction name="act_2_3"/>
+   </widget>
+   <addaction name="menu_1"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action234324">
+   <property name="text">
+    <string>234324</string>
+   </property>
+  </action>
+  <action name="act_1_1">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>数据输入</string>
+   </property>
+   <property name="iconText">
+    <string>数据输入</string>
+   </property>
+   <property name="toolTip">
+    <string>数据输入</string>
+   </property>
+  </action>
+  <action name="act_2_1">
+   <property name="text">
+    <string>模型训练</string>
+   </property>
+  </action>
+  <action name="act_2_2">
+   <property name="text">
+    <string>模型验证</string>
+   </property>
+  </action>
+  <action name="act_2_3">
+   <property name="text">
+    <string>模型预测</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../图片/picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>
